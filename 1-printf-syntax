@@ -1,0 +1,13 @@
+#! /bin/bash
+
+# {%d=%i}: prints an associated arg as a signed number
+# %f: prints an associated arg as a float number 
+printf "%d mul %f = %f\n" 6 6,0 36,0
+
+# %s: prints the string
+printf "%s Scripting\n" Shell
+
+# you can also use format modifiers to improve printing:
+printf "%d mul %.2f = %.2f\n" 6 6,0 36,0
+
+#PS: from 2015 from today, float values use (,) and not (.)
