@@ -1,0 +1,8 @@
+#! /bin/bash
+
+readonly text="Welcome to Linux Shell Scripting" # Can't be changed
+echo $text
+declare -r number=27
+echo $number
+text="Welcome"
+number=3
