@@ -1,0 +1,27 @@
+#! /bin/bash
+
+# read reads the last input and save to a inbuilt variable $REPLY
+read
+echo $REPLY
+
+# read also can use a variable to store the input
+read text
+echo $text
+
+# reading multiple variables from input
+read name age pet
+echo $name $age $pet
+
+# take only 5 characteres from the input
+read -n 5
+echo $REPLY
+
+# prompt a message before reading the input
+read -p "Heeello "
+echo $REPLY
+
+# hide input
+read -s -p "Password:"
+echo $REPLY
+
+
