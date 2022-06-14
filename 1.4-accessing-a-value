@@ -1,0 +1,8 @@
+#! /bin/bash
+
+fruit="Apple"
+quantity=6
+echo "Fruit = $fruit, Quantity = $quantity"
+unset fruit # unset resets a variable to null 
+echo "Fruit = $fruit, Quantity = $quantity"
+

@@ -5,7 +5,7 @@ book="Linux Shell Scripting" # Stores  string value
 book = "Linux Shell Scripting" # Wrong, spaces around = operator
 total_chapters=8 # Stores integer value
 number_of_pages=210 # Stores integer value
-average_pages_per_chapter=26.25 # Stores float value
+average_pages_per_chapter=26,25 # Stores float value
 
 echo "Book name - $book"
 echo "Number of Chapters - $total_chapters"
